@@ -1,0 +1,100 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+    /* color: aliceblue; */
+    color: rgb(86, 84, 84);
+    z-index: -1px;
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 19px;
+    list-style: none;
+    display: inline;
+    /* border: 2px solid red; */
+    
+    
+}
+.kut{
+    background-color: gainsboro;
+    border-radius: 4px;
+
+}
+#yaa{
+    color: rgb(86, 84, 84);
+    text-decoration: none;
+}
+.topper{
+    /* background-color: palegreen; */
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+/* .navbar{
+    background-color: red;
+} */
+ul{
+    padding:  0px 20px;
+    display: flex;
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+    background:none;
+    justify-content: center;
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+li a{
+    cursor: pointer;
+    margin: 0px 30px;
+    color: rgb(86, 84, 84);
+    text-decoration: none;
+    font-weight: 500 ;
+    font-size: 18px;  
+}
+.teslalogo{
+    position: relative;
+    height: 13px;
+    width: 100px;
+    margin: -27px 67px;
+    /* filter: invert(1); */
+}
+.modals{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+.box{
+    border: 1px solid  rgb(86, 84, 84);
+    width: 60%;
+    /* box-sizing: border-box; */
+    display: flex;
+    margin: 4px;
+    border-radius: 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vehicalimage{
+    height: 430px;
+    width: 720px;
+}
+.identity{
+    font-weight:500;
+    font-size: 24px;
+    color: rgb(46, 43, 43);
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+button{
+        color:  rgb(46, 43, 43);
+        font-weight: 600;
+        background: none;
+        width: 20%;
+        margin: 5px;
+        padding: 7px;
+        border: 3px solid  rgb(46, 43, 43);
+        border-radius: 4px;
+}
+/* .rco{} */

@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.bg-container{
+    /* background-color: aqua; */
+    /* margin-top:-18px ;
+    height: 100vh;
+    position: relative; */
+    height: 854px;
+
+}
+/* .navbar{
+    z-index: -1px;
+    background-color: aliceblue;
+     margin: 0; 
+     position: relative; 
+    justify-content: center;
+    display: inline; 
+    align-items: center;
+    opacity: 0.7;
+} */
+li{
+    color: aliceblue;
+    z-index: -1px;
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 19px;
+    list-style: none;
+    display: inline;
+    
+    
+}
+ul{
+    padding: 10px;
+    display: flex;
+    background:none;
+    justify-content: center;
+}
+li a{
+    cursor: pointer;
+    margin: 0px 30px;
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+.teslalogo{
+    position: relative;
+    height: 13px;
+    width: 100px;
+    margin: -27px 67px;
+    filter: invert(1);
+}
+/* styles.css */
+/* body {
+        margin: 0;
+        padding: 0; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f0f0f0; 
+} */
+
+.video-container {
+    max-width: 100%;
+    height: 0vh;
+    /* position: absolute; */
+    /* position: absolute;
+    width: 100%;
+    height: 100%; */
+}
+
+video {
+    /* z-index: 0; */
+    width: 100%;
+    /* height: 100%; */
+    /* bottom: 0; */
+    /* height: 90%; */
+    opacity: 0.9;
+    /* border: 1px solid #ccc; */
+}
+
+/* .video-container video {
+    width: 100%; Make the video fill the container
+} */
+
+.overlay {
+    position: absolute; /* Position the overlay content */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background 
+    color: white; Text color for the overlay content */
+    padding: 10px;
+    box-sizing: border-box;
+}
+.specs{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* align-items: end; */
+    /* border: 2px solid red; */
+    /* align-items: flex-end; */
+}
+.spec-1{
+    color: white;
+    padding: 10px;
+    margin:  0px 40px;
+    /* border: 2px solid yellowgreen; */
+
+}
+.caption{
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+.feature{
+    font-weight:500;
+    font-size: 24px;
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+
+.con{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    bottom: 550px;
+    
+}
+.name{
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 38px;
+    color: aliceblue;
+    font-weight: 500;
+}
+.subtitle{
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+    color: aliceblue;
+    font-weight: 500;
+}
+/* .specm
+{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border: 20px solid blue;
+} */
+.gundis{
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: end; */
+    /* padding: 10px; */
+    /* border: 2px solid purple; */
+    bottom: -100px;
+    margin: -11px 0px;
+}
+.pakka{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+.order{
+    color: aliceblue;
+    font-weight: 600;
+    background: none;
+    width: 18%;
+    margin: 5px;
+    padding: 7px;
+    border: 3px solid aliceblue;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.plaid{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid blue; */
+    padding: 7px;
+    font-weight: 500;
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 15px;
+}
+
+.second
+{
+    /* position: absolute; */
+    background: url(../static/Model-S-Interior.avif);
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1000px;
+    width: 100%;
+}
+
+
+.second p
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 31px;
+    top:20px;
+    font-weight: 500;
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+.third{
+    background-color: black;
+    /* border: 2px solid seagreen; */
+    width: 100%;
+    position: absolute;
+    /* color: aliceblue; */
+    /* padding: 20px; */
+}
+.first-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* padding: 20px; */
+    /* padding: 20px 80px; */
+    /* border: 2px solid pink; */
+    
+}
+.second-box{
+    display: flex;
+    flex-direction:row-reverse;
+    /* border: 2px solid khaki; */
+    justify-content: center;
+
+}
+.firstboximage{
+    height: 300px;
+    width: 560px;
+    padding: 20px 70px;
+}
+.summary{
+    height: 200px;
+    width: 400px;
+    margin-top: 50px;
+    color: aliceblue ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 2px solid snow; */
+    padding: 40px;
+    font-weight: 500;
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 15px;
+}
+#sensors{
+    height: 300px;
+    width: 560px;
+    padding: 20px 70px;
+
+}
+.sideview{
+    /* background-image: url("Model-S-Exterior-sideview.avif"); */
+    width: 100%;
+    /* position: absolute; */
+    height: 100%;
+}
+/* .fourth{
+    border: 2px solid red;
+    background-color: black;
+} */
+.ravi{
+    display: flex;
+     background-image: url("../static/Model-S-Exterior-sideview.avif");
+    width: 94.3%;
+    height: 880px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    position: relative;
+    flex-direction: row-reverse;
+    /* padding: 20px; */
+    color: aliceblue;
+    /* border: 2px solid red; */
+    /* background-color: black; */
+    padding: 0px 40px;
+    padding-bottom: 30px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: end;
+    align-items: end;
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+.yaar{
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    color: aliceblue;
+    padding: 10px;
+    /* border: 2px solid yellowgreen; */
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+.harshi{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid pink; */
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+.nithin{
+    color: aliceblue;
+    font-weight: 600;
+    background: none;
+    /* display: inline; */
+    width: 100%;
+    margin:  0px 10px;
+    padding:  4px 100px;
+    border: 3px solid aliceblue;
+    border-radius: 4px;
+}
+#Exterior{
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: 500;
+    text-align: start;
+
+}
+#Designer{
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: 500;
+}
+#porthozil{
+    font-weight:500;
+    font-size: 20px;
+    /* border: 2px solid slateblue; */
+    /* bottom: -20px; */
+    margin-bottom: 15px;
+    margin-left: 20px;
+    /* margin-top: -30px; */
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+.unga{
+    /* border: 2px solid blue; */
+    text-align: start;
+    margin: 10px 0px ;
+}
+.inka{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

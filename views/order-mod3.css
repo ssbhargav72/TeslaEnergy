@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topper{
+    /* background-color: palegreen; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+.maa{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: start; */
+    align-items: center;
+}
+.hukum{
+    display: flex;
+    flex-direction: row;
+}
+#variant{
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    margin: 0px 450px;
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 30px;
+    color: rgb(86, 84, 84);
+    font-weight: 500;
+    /* border: 2px solid red; */
+}
+/* .carousel-inner{
+    position: absolute;
+} */
+.carouselExampleControls{
+    position: absolute;
+}
+
+.teslalogo{
+    position: relative;
+    height: 13px;
+    width: 100px;
+    margin: -27px 67px;
+    /* filter: invert(1); */
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* justify-content: center; */
+}
+.pedda{
+    /* border:2px solid gold; */
+    /* height: 100vh; */
+    /* position: fixed; */
+    background-color: white;
+}
+.pilla{
+    /* border: 2px solid magenta; */
+    text-align: center;
+    /* background-color: peru; */
+    width: 23%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
+    /* margin-left: 20px; */
+    /* padding: 60px; */
+}
+.delhi{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid red; */
+    width: 100%;
+    background-color: white;
+    color: black;
+    /* margin-left: 40px; */
+}
+.captions
+{
+    position: relative;
+    top: -30px;
+}
+.caption-two{
+    color: rgb(86, 84, 84) ;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: underline;
+    /* padding: -20px -10px; */
+    font-weight: 400;
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    margin: 2px;
+}
+#caption{
+    color: rgb(86, 84, 84) ;
+    font-size: 16px;
+    /* padding: -20px -10px; */
+    font-weight: 400;
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    margin: 2px;
+}
+#sub-variant{
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px 450px; */
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 40px;
+    color: black;
+    padding: 10px;
+    font-weight: 500;
+    /* border: 2px solid red; */
+}
+.jailer
+{
+    background-color: aliceblue;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pakka{
+    display: flex;
+    /* background-color: rgb(230, 236, 241); */
+    background-color: #0000000d;
+    flex-direction: row;
+    justify-content: center; 
+    /* border: 2px solid black; */
+}
+.order-one{
+    color: rgb(21, 19, 19);
+    font-weight: 600;
+    /* background-color: #0000000d; */
+    background-color: white;
+    width: 55%;
+    margin: 5px;
+    padding: 4px;
+    border: none;
+    /* border: 3px solid  rgb(21, 19, 19); */
+    border-radius: 2px;
+}
+
+.order{
+    color: rgb(21, 19, 19);
+    font-weight: 600;
+    background-color: #0000000d;
+    /* background-color: white; */
+    width: 55%;
+    margin: 5px;
+    padding: 4px;
+    border: none;
+    /* border: 3px solid  rgb(21, 19, 19); */
+    border-radius: 2px;
+}
+.specs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+}
+.spec-1{
+    color: rgb(21, 19, 19);
+    padding: 5px;
+    margin:  6px 10px;
+    /* border: 2px solid yellowgreen; */
+
+}
+.caption-tel{
+    color: rgb(86, 84, 84) ;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+.feature{
+    font-weight:500;
+    font-size: 24px;
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+.tala{
+    display: flex;
+    color: black;
+    font-weight:500;
+    font-size: 17px;
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    justify-content: start;
+    /* border: 2px solid purple; */
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+.boxes{
+    /* color: blue; */
+    display: flex;
+    margin: 5px 0px;
+    /* border: 2px solid darkorange; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* button{
+    width: 98%;
+    display: inline;
+} */
+.box-1{
+    /* color: rgb(86, 84, 84) ; */
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Gotham SSm,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    cursor: pointer;
+    display: flex;
+    color: black;
+    text-align: center;
+    /* padding-top: 5px; */
+    padding: 0px 7px;
+    width: 90%;
+    margin: 4px 0px;
+    border: 2px solid gray;
+    border-radius: 4px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box-1:hover{
+    border: 2px solid rgb(12, 168, 220);
+    border-radius: 4px;
+}
+.pakka-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    /* border: 2px solid black; */
+    padding: 12px;
+}
